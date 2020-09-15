@@ -94,6 +94,7 @@ public class TileScript : MonoBehaviour
         GameManager.Instance.ClickedBtn = null;
         IsEmpty = true;
         ColorTile(Color.white);
+        SoundScript.Instance.MakeColocarTorreSound();
     }
 
     private void ColorTile(Color newColor)
